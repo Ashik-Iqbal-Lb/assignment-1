@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+ul {
+    margin: 0px;
+}
+
+ul li {
+    float: left;
+    list-style: none;
+    padding: 0 10px;
+    margin-right: 100px;
+
+}
+
+.logo a {
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+ul li a:hover {
+    color: red;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 20px;
+    color: rgb(4, 4, 97);
+}
+
+.flexible-contain {
+    margin-left: 5%;
+    display: flex;
+    padding-bottom: 100px;
+
+}
+
+.orange-color {
+    color: orange;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button {
+    background-image: linear-gradient(80deg, orange, tomato);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+#about-img {
+    width: 50%;
+}
+
+.about-area {
+    background-image: url(../images/Frame\ 57.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0px;
+    margin-bottom: 120px;
+    height: 298px;
+}
+
+.about-width {
+    width: 40%;
+    margin-left: 6%;
+}
+
+.our-recipe {
+    text-align: center;
+
+}
+
+.recipe-box img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.recipe-box {
+    width: 30%;
+    margin: 2.5%;
+    margin: 4%;
+
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px #bae2e2;
+}
+
+.flex-recipe {
+    display: flex;
+    padding-bottom: 250px;
+
+}
+
+.network-heighlight {
+    color: red;
+}
+
+#para-heiglight {
+    color: darkgoldenrod;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 350px;
+
+}
+
+.line-height {
+    line-height: 100px;
+}
